@@ -1,0 +1,25 @@
+.header {
+    margin-top: 100px;
+    height: 160vh;  
+    background: url(../imagenesWeb/Principal/cabecera.jpg) no-repeat top center;
+    background-size: cover;
+    
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding-left: 55vw; 
+}
+
+
+.titulo1 {
+    color: black;
+    font-size: 150px;
+    font-family: 'Mystery Quest', cursive;
+}
+
+.titulo2 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Mystery Quest', cursive;
+}
