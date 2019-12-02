@@ -29,6 +29,7 @@ article p{
 article{
     display: grid;
     grid-template-columns: 100px winmax(200px, auto) 100px;
+    
 
     gap 15px;;
    /* grid-template-areas: "titulo-seccion " 
@@ -43,10 +44,6 @@ article{
     margin-right: 2rem;
     color: green;
 
-    display: flex;
-    align-content: center;
-    justify-content: center;;
-
 }
 /*
 .img-gen{
@@ -55,31 +52,40 @@ article{
 
 .tit-sec{
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
 }
-
+/*
 .img-gen1, .img-gen2, .img-gen3, .img-gen4, .img-gen5, .img-gen6, .img-gen7
 {
     border: solid 20px;
     border-color: green;
     grid-area: caratula;
-}
-
-}
+}*/
 .par-mixtos{
     display: inline-flex;
 }
+/*
 .img-gen{
     padding: 5px;
     margin: 1rem;
-}
+}*/
 
 article img{
+    width: 80%;
     background-size: 2px;
     background-color: black;
-    padding: 10px;
+    padding: 2px;
     border-radius: 50px;
     transition: transform 0.4s; /* que los efectos tarden 0.3s */
+    margin: 10px;
+
+}
+
+.img-gen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 article img:hover{ /*establecemos propiedades cuando pasemos el raton */
