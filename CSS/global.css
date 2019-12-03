@@ -29,7 +29,6 @@ article p{
 article{
     display: grid;
     grid-template-columns: 100px winmax(200px, auto) 100px;
-    
 
     gap 15px;;
    /* grid-template-areas: "titulo-seccion " 
@@ -61,6 +60,7 @@ article{
     border-color: green;
     grid-area: caratula;
 }*/
+/*
 .par-mixtos{
     display: inline-flex;
 }
@@ -89,8 +89,8 @@ article img{
 }
 
 article img:hover{ /*establecemos propiedades cuando pasemos el raton */
-    -webkit-transform: scale(1.8);
-    transform: scale(1.8);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 
 
  }
