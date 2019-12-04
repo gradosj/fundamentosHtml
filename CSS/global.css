@@ -4,6 +4,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+
 }
 
 article h2{
@@ -11,26 +12,30 @@ article h2{
     text-align: center;
     font-family: 'Chewy';
     font-size: 4rem;
+    background-color: crimson;
 }
 article p{
     margin-top: 10px;
     text-align: center;
     font-family: 'Rock Salt';
     font-size: 1.2rem;
+    background-color: darkgoldenrod;
 }
 .grupo-imagenes{
     display: flex;
     justify-content: center;
     margin: 5rem;
     flex-wrap: wrap;
+    background-color: darkred;
     
     
 }
 article{
-    display: grid;
-    grid-template-columns: 100px winmax(200px, auto) 100px;
+  /*  display: grid; 
+    grid-template-columns: repeat(4fr, 1fr , 1fr , 1fr);
+   /* grid-template-columns: 100px winmax(200px, auto) 100px;*/
 
-    gap 15px;;
+ /*   gap 15px;;
    /* grid-template-areas: "titulo-seccion " 
                          "caratula caratula caratula caratula caratula";*/
 
@@ -42,23 +47,33 @@ article{
     margin-left: 2rem;
     margin-right: 2rem;
     color: green;
+    background-color: darkviolet;
 
 }
-/*
-.img-gen{
-    grid-area: header;
-}*/
 
+.img-gen{
+   display: flex;
+   align-items: center;
+   
+}
+/*
 .tit-sec{
     grid-column-start: 1;
     grid-column-end: 6;
 }
-/*
-.img-gen1, .img-gen2, .img-gen3, .img-gen4, .img-gen5, .img-gen6, .img-gen7
-{
-    border: solid 20px;
-    border-color: green;
-    grid-area: caratula;
+/**/
+
+.rejilla-peliculas{
+   
+    display: grid; 
+    grid-template-columns: repeat(4fr, 1fr , 1fr , 1fr);
+   /* grid-template-columns: 100px winmax(200px, auto) 100px;*/
+    border: solid;
+    border-color: gainsboro;
+
+}
+
+
 }*/
 /*
 .par-mixtos{
@@ -80,14 +95,14 @@ article img{
     margin: 10px;
 
 }
-
+/*
 .img-gen{
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-
+*/
 article img:hover{ /*establecemos propiedades cuando pasemos el raton */
     -webkit-transform: scale(1.5);
     transform: scale(1.5);

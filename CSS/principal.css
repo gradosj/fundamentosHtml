@@ -1,46 +1,89 @@
-.item {
-  background-color: lightblue;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  border: solid 5px goldenrod;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body{
+    background-image: url(../imagenes/fondo-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-.container {
-  display: grid;
-  /*
-  grid-template-columns: [grid-start nav-start] 100px
-                         [nav-end main-start] minmax(200px, auto)
-                         [main-end] 100px
-                         [grid-end];
-  /* grid-auto-rows: 120px; */
- /* gap: 15px; /*espacio entre columnas */
+section{
+    padding-top: 150px;
+}
+.rejilla-peliculas{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 10px;
+   padding-bottom: 50px;
+   padding-right: 10px;
+   padding-left: 10px;
+                     
+    /* grid-auto-rows: 120px; */
+}
+
+.div-pel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: gold;
+}
+
+.rejilla-series{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 10px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+                      
+     /* grid-auto-rows: 120px; */
+ }
+
+ .div-ser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: gold;
+}
+
+.div-ser > img{
+    border: solid 2px;
+    border-color: rgb(7, 238, 46);
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+.tit-h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    background-color: black;
+
+
+}
+
+.div-pel > img{
+    border: solid 2px;
+    border-color: rgb(7, 238, 46);
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+
+article{
+
+      background-color: rgb(225, 226, 230);
+      border: solid 10px;
+      border-color: blue;
+      border-radius: 100px;
+   /*   padding: 1rem 0;*/
+      margin-left: 2rem;
+      margin-right: 2rem;
+      color: green;
+      background-color: darkviolet;
+      margin-bottom: 15px;
   
-  grid-template-areas: "header header header"
-                       " nav    nav   nav"
-                       " main   main  main"
-                       "footer footer footer";
-  justify-content: stretch;
-  align-content: stretch;
-  height: 100vh;
-}
-
-.item1 {
-  grid-area: header;
-}
-
-.item2 {
-  grid-area: nav;
-}
-
-.item3 {
-  grid-area: main;
-}
-
-.item4 {
-  grid-area: footer;
-}
+  }
