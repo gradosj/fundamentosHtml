@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="efecto2.css">
+    <title>Document</title>
+
+    <style>
+
+.div-imagen {
+    display:inline-block;
+    position:relative;
+  }
+  
+  .texto-imagen {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    padding:10px;
+    margin:0;
+  }
+  
+  .desvanecer:hover {
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+  
+  </style>
+</head>
+<body>
+        <div class="div-imagen">
+                <div class="texto-imagen">
+                    Descripción de la foto que quieres que se muestre
+                </div>
+                <img class="desvanecer" src="http://placehold.it/200x200" />
+        </div>
+</body>
+</html>
