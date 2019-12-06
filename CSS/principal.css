@@ -34,8 +34,8 @@ section{
 }
 .rejilla-peliculas{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-   gap: 10px;
+   grid-template-columns: repeat(auto-fit, minmax(212px, 1fr));
+   gap: 2rem;
    padding-bottom: 50px;
    padding-right: 10px;
    padding-left: 10px;
@@ -104,8 +104,15 @@ article{
       margin-bottom: 15px;
   
   }
-
+/*
 .div-imagen > img{
+    border: solid 2px;
+    border-color: rgb(7, 238, 46);
+    border-radius: 50px;
+    max-width: 100%;
+}*/
+
+.img-parrilla{
     border: solid 2px;
     border-color: rgb(7, 238, 46);
     border-radius: 50px;
@@ -138,8 +145,8 @@ article{
 }
 .tit-descripcion
 {
-    font-family: "Chewy";
-    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
       
 }
 .texto-imagen > p
@@ -147,11 +154,12 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
-    font-family: "Chewy";
+    font-size: 14px;
+    font-family: "arial";
       
 }
   
+
 .desvanecer:hover {
     opacity: 0.07;
     -webkit-transition: opacity 500ms;
@@ -161,3 +169,19 @@ article{
     transition: opacity 500ms;
   }
   
+
+  @media (min-width: 480px) and (max-width: 767px){
+    .tit-descripcion
+    {
+        font-size: calc(40px + 0.5vw);
+          
+    }
+    .texto-imagen > p
+    {
+        font-size: calc(14px + 0.5vw);
+
+          
+    }
+      
+
+  } 
