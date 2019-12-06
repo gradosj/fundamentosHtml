@@ -43,12 +43,15 @@ body{
 
 video{
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
+    border: solid 3px blue;
+
   
   }
   img{
     max-width: 100%;
     border-radius: 10px;
+
   }
 
 
