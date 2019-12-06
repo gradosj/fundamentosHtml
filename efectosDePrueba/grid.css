@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-areas: "tpeli tpeli tpeli"
+                         "video video video"
+                         "desc desc desc"
+                         "tpelr tpelr tpelr"
+                         "pel1 pel2 pel3"
+                         "tserr tserr tserr"
+                         "s1    s2     s3";
+
+  }
+  
+  .a { grid-area: tpeli; background: blue }
+  .b { grid-area: video; background: red }
+  .c { grid-area: desc; background: green }
+  .d { grid-area: tpelr; background: orange }
+  .e { grid-area: pel1; background: rgb(114, 226, 9)}
+  .f { grid-area: pel2; background: rgb(169, 240, 103)}
+  .g { grid-area: pel3; background: rgb(208, 236, 182)}
+  .h { grid-area: tserr; background: rgb(236, 182, 220)}
+  .s1 { grid-area: s1; background: rgb(236, 182, 220)}
+  .s2 { grid-area: s2; background: rgb(236, 182, 220)}
+
+
+  
+
