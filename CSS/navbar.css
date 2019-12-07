@@ -77,6 +77,9 @@
 
 
 }
+.busqueda-icono{
+    display: none;
+}
 
 @media all and (max-width: 550px){
     .navbar{
@@ -137,9 +140,17 @@
     .busqueda{
       display: none;
   }   
-  @media all and (max-width: 800px) and (min-width: 740px){
+  .busqueda-icono{
+      display: inherit;
+  }
+  @media all and (max-width: 880px) and (min-width: 740px){
     .navbar-item a {
         font-size: 1.0rem;
+    }
+    
+    .busqueda-icono {
+        width: 40px ;
+
  
     }
       
@@ -149,7 +160,7 @@
 
 @media all and (max-width: 741px) and (min-width: 500px){
     .navbar-item a {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
  
     }
     .logo{
