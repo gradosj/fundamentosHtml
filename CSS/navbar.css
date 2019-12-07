@@ -142,16 +142,12 @@
   }   
   .busqueda-icono{
       display: inherit;
+      width: 20px;
+      margin-top: 18px;
   }
   @media all and (max-width: 880px) and (min-width: 740px){
     .navbar-item a {
         font-size: 1.0rem;
-    }
-    
-    .busqueda-icono {
-        width: 40px ;
-
- 
     }
       
 }    
@@ -165,7 +161,7 @@
     }
     .logo{
         width: 100px;
-        height: 60px;
+        height: 50px;
      
  
     }
