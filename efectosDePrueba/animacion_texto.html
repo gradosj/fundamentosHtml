@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transiciones y transformaciones</title>
+  <style>
+  *, *:after, *:before {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper {
+    max-width: 900px;
+    margin: auto;
+    border: solid 20px transparent;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    position: relative;
+    max-width: 200px;
+    height: 330px;
+    overflow: hidden;
+    margin: .25rem;
+  }
+
+  .card:hover .card-overlay {
+    /* visibility: visible; */
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: #F0B030;
+    padding: 4.25rem;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    transform: translateX(100%);
+    opacity: 0;
+    /* visibility: hidden; */
+    cursor: pointer;
+    transition: all ease-in-out 1000ms;
+    transition-delay: 0.25s;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card-container">
+      <div class="card">
+        <div class="card-body">
+          <img src="1572585396-terminator-destino-oscuro.jpg"imagen aleatoria">
+        </div>
+        <div class="card-overlay">
+          Un texto cualquiera de ejemplo que aparecerá
+          sobre la imagen de la tarjeta.
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
