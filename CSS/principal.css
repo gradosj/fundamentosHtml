@@ -24,11 +24,11 @@ section{
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: black;
     opacity: 0.8;
     border-radius: 50px;
-    font-family: "Rock Salt";
+    font-family: 'Tomorrow', sans-serif; 
     margin-bottom: 20px;
     
 }
@@ -47,7 +47,7 @@ section{
 .rejilla-series{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    gap: 2rem;
     padding-bottom: 50px;
     padding-right: 10px;
     padding-left: 10px;
@@ -84,11 +84,12 @@ section{
     border: solid 5px green;
     margin-bottom: 10px; */
     color: rgb(44, 44, 46);
-    font-size: 2rem;
+    font-size: 3rem;
     opacity: 0.8;
     font-family: "Rock Salt";
     background-color: black;
     text-align: center;
+    margin-bottom: 20px; 
   
  
    
@@ -141,6 +142,7 @@ article{
     display:inline-block;
     position:relative; 
     align-items: center;
+    max-width: 224px;;
   
 }
   /*separar el tamaño de la imagen para las peliculas y las series */
@@ -162,16 +164,24 @@ article{
     z-index:-100;
     padding:10px;
     margin:0;
-    width: 220px;
+    width: 215px;
     
      
 }
 .tit-descripcion
 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center;
+    font-family: "Chewy";
+    font-size: 1.7rem;
+    text-align: justify;
     margin-top: 10px;
+    color: blue;
+      
+}
+
+.foot-play
+{
+    text-align: center
+    
       
 }
 .texto-imagen > p
@@ -194,10 +204,10 @@ article{
     transition: opacity 500ms;
   }
   
-
+/*
   @media (min-width: 992px) {
     /* acá van las reglas CSS que aplican para este media query */
-  }
+  
 /*
   @media (min-width: 480px) and (max-width: 767px){
     .tit-descripcion
@@ -214,3 +224,19 @@ article{
       
 
   } */
+
+  
+@media all and (max-width: 974px) {
+
+    .tit-h2{
+        text-shadow: 0 0 5px rgb(18, 86, 235)
+    }
+
+
+@media all and (min-width: 975px){
+
+
+ .tit-h2:hover{
+    text-shadow: 0 0 5px rgb(18, 86, 235);
+    }
+  }
