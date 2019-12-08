@@ -243,18 +243,25 @@ article{
 
   } */
 
-  
+  @media all and (min-width: 975px){
+
+    .tit-h2:hover{
+       text-shadow: 0 0 5px rgb(18, 86, 235);
+       }
+       
+     }
+
+
 @media all and (max-width: 974px) {
 
     .tit-h2{
-        text-shadow: 0 0 5px rgb(18, 86, 235)
+        text-shadow: 0 0 5px rgb(18, 86, 235);
+        font-size: calc(30px + 0.5vw);
+    }
+    .text-fav{
+        font-size: calc(10px + 0.5vw);
+    }
+    
     }
 }
 
-@media all and (min-width: 975px){
-
-
- .tit-h2:hover{
-    text-shadow: 0 0 5px rgb(18, 86, 235);
-    }
-  }
