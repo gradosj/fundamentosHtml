@@ -8,7 +8,6 @@
     z-index: 9999; /* prioridad maxima para apilacion de la capa */
     display: flex; /* aplicamos flex, por lo que habra dos cajas, una para el logo y otra para el menu de navegacion */
     align-items: center; /* lo centramos en la barra por altura y anchura */
-  /*  background-repeat: no-repeat; */
     background-size: cover;
     padding: 0 0 3px 0;
     border-bottom: solid 3px green;
@@ -34,12 +33,12 @@
     margin: 0; 
     display: flex;
     justify-content:flex-end; /* alineamos a la derecha */
-    flex: 1 100%; /*duda */
+    flex: 1 100%; 
 }
 
 .navbar-item a {
     color: white;
-    text-decoration: none; /*eliminaos simbolos de hipervinculo */
+    text-decoration: none; 
     padding: 1rem; 
     display: block;
     font-size: 1.1rem;
@@ -80,9 +79,6 @@
     .navbar{
         padding: 0;
         border-bottom: none;
-       /*width: 48%;*/
-      /*  background-color: red;
-        height: 50px;*/
     }
     .navbar > .navbar-list{
         display: none;
@@ -148,7 +144,6 @@
       
 }    
 }
-
 
 @media all and (max-width: 741px) and (min-width: 500px){
     .navbar-item a {

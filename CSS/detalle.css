@@ -22,7 +22,6 @@ mark{background: none;
 
 body{
 
-   /* background-image: url(../imagenes/fondo-body.jpg); */
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,14 +92,7 @@ video{
   
 
 }
-/*
-.div-imagen > img{
-    border: solid 5px;
-    border-color: rgb(7, 238, 46);
-    border-radius: 50px;
-    max-width: 100%;
-}
-*/
+
 .div-tpeli { grid-area: tpeli; }
 .div-video { 
     grid-area: video;
@@ -159,34 +151,8 @@ video{
     .solotexto{
         font-size: calc(10px + 0.2vw);
     }
-/*
-    .tit-h2{
-        font-size: 1rem;
-    }   */
 
 }
-/*
-@media all (min-width: 974px){
-   /* video{
-        max-width: 100%;
-        border-radius: 30px;
-        border: solid 3px blue;
-      
-      }*/
-   /*   .div-p1 { 
-        grid-area: pel1;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 10px;
-    
-     }*//*
-     .div-p1 > img{
-         width: 100px;
-     }
-    
-     
-}
-*/
 
 @media all and (min-width: 975px){
 .caja-reproduccion {
