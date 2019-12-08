@@ -8,9 +8,17 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    font-family: "Tomorrow";
 
   
 } 
+
+.texto-form{
+    font-family: "Tomorrow";
+}
+.texto-form2{
+    font-family: "Acme";
+}
 section{
     display: flex;
     flex: 0 1 48%;

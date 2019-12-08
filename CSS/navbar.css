@@ -35,9 +35,6 @@
     display: flex;
     justify-content:flex-end; /* alineamos a la derecha */
     flex: 1 100%; /*duda */
- 
-
-
 }
 
 .navbar-item a {
@@ -48,7 +45,6 @@
     font-size: 1.1rem;
     font-family: "Rock Salt";
 
-
 }
 
 .navbar-item a:hover{
@@ -58,16 +54,15 @@
 }
 
 .logo{
-  /*  width: 150px;
-    border-radius: 100px;
-    margin: 5px;
-*/
+
     display: block;
     flex-grow: 1;
     flex-shrink: 0;
     height: 80px;
     margin-left: 10px;
     border: solid blue 2px;
+    border-radius: 500px;
+    margin-top: 3px;
 
     
 }
@@ -105,6 +100,7 @@
         align-self: center;
         height: 50px;
         margin-left: 10px;
+       
  
     }
     
