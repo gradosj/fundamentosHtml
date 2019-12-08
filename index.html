@@ -1,49 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FrikyFilm</title>
-    <link rel="stylesheet" href="./CSS/reset.css"> <!-- enlaczamos con ficheros aparte de nuestra web-->
-    <link rel="stylesheet" href="./CSS/index.css"> <!-- enlaczamos con ficheros aparte de nuestra web-->
-    <link rel="stylesheet" href="./CSS/tipografias.css"> <!-- enlaczamos con ficheros aparte de nuestra web-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FrikyFilm</title>
+  <link rel="stylesheet" href="./CSS/reset.css"> <!-- enlaczamos con ficheros aparte de nuestra web-->
+  <link rel="stylesheet" href="./CSS/index.css"> <!-- enlaczamos con ficheros aparte de nuestra web-->
+  <link rel="stylesheet" href="./CSS/tipografias.css"> <!-- enlaczamos con ficheros aparte de nuestra web-->
+  <style>
+    .limite {
+      min-width: 360px;
+      /*controlamos el tamaño minimo */
+    }
+  </style>
 
 </head>
 
-<body>
-    <section id="login">
-        <div class= "caja-form">
-          <p> <img src="./imagenes/logo-ok-negro.jpg" alt="Logo principal" >
 
-          </p>
+<body>
+  <div class="limite">
+    <section id="login">
+      <div class="caja-form">
+        <p> <img src="./imagenes/logo-ok-negro.jpg" alt="Logo principal">
+
+        </p>
         <div class="login-form">
           <form action="" id="login-form">
-                <p>
-                    <label class = "texto-form2" for="form-email">E-mail:</label>
-                    <input class = "texto-form" type="email" name="name" id="form-email" placeholder="Escribe tu email" >               
-              </p>
-              <p>
-                    <label class = "texto-form2" for="form-password">Password:</label>
-                    <input class = "texto-form" type="password" name="password" id="form-password" placeholder="Escribe tu password">               
-              </p>
+            <p>
+              <label class="texto-form2" for="form-email">E-mail:</label>
+              <input class="texto-form" type="email" name="name" id="form-email" placeholder="Escribe tu email">
+            </p>
+            <p>
+              <label class="texto-form2" for="form-password">Password:</label>
+              <input class="texto-form" type="password" name="password" id="form-password"
+                placeholder="Escribe tu password">
+            </p>
 
-              <p class="botones"> 
-                  
-               
-                    <button type="submit"> Enviar</button>
-                    <button type="reset"> Reset</button>
-             
-                   
-             </p>
-             <p class="p-password"> <a href="./principal.html" >¿Olvidaste tu contraseña?</a> </p>
+            <p class="botones">
+
+
+              <button type="submit"> Enviar</button>
+              <button type="reset"> Reset</button>
+
+
+            </p>
+            <p class="p-password"> <a href="./principal.html">¿Olvidaste tu contraseña?</a> </p>
           </form>
-        
+
         </div>
-        
-        
-     </section>
-     
-    
+
+
+    </section>
+
+  </div>
 </body>
+
 </html>

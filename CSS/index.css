@@ -1,5 +1,5 @@
 
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,87 +9,102 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     font-family: "Tomorrow";
-
+  }
   
-} 
-
-.texto-form{
+  .texto-form {
     font-family: "Tomorrow";
-}
-.texto-form2{
+  }
+  .texto-form2 {
     font-family: "Acme";
-}
-section{
+  }
+  section {
     display: flex;
     flex: 0 1 48%;
     flex-direction: column;
- /*   border: solid 10px black;*/
     align-items: center;
     justify-content: center;
- /*   background: chocolate;*/
     height: 100vh;
-
-}
-img{
+  }
+  
+  img {
     width: 40vw;
     max-width: 100%;
-    display:block;
-    margin:auto;
-    
-}
-
-.caja-form{
+    display: block;
+    margin: auto;
+    min-width: 150px;
+  }
+  
+  .caja-form {
     display: flex;
     flex-direction: column;
-    flex: 0 1 48%; /*¿porque no se hace mas pequeño? */
-    border: solid 10px;
+    flex: 0 1 48%; 
+    border: solid 5px;
     border-color: blue;
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: black;
     padding: 0 3rem 3rem;
-    color: rgb(28, 28, 145);  
-      flex-wrap: wrap;
-}
-.login-form{
- /*   background-color: red;*/
+    color: rgb(28, 28, 145);
+    flex-wrap: wrap;
+    margin: 0 20px 0 20px;
+  
+  }
+  .login-form {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
-}
-form label{
+  }
+  form label {
     display: block;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
-
-    }
-
-input[type="password"], input[type="email"], textarea{
+  }
+  
+  input[type="password"],
+  input[type="email"],
+  textarea {
     width: 100%;
-    padding: .3rem;
+    padding: 0.1rem;
     background-color: rgb(32, 31, 31);
     border: 0;
     border-radius: 50px;
     font-size: 1.2rem;
     color: blanchedalmond;
-    
-}
-button{
+    max-width: 100%;
+  }
+  button {
     border: 0;
     border-radius: 50px;
     background-color: rgb(32, 243, 32);
-    font-size: 1.4rem;
-    padding: 0 2rem;
-
-}
-
-button:hover{ /*establecemos propiedades cuando pasemos el raton */
-    background-color: rgb(23, 73, 212);
- }
-
-.p-password{
     font-size: 1.5rem;
-
-   
-}
+    padding: 0 2rem;
+    max-width: 100%;
+  }
+  
+  button:hover {
+    background-color: rgb(23, 73, 212);
+  }
+  
+  .p-password {
+    font-size: 1.5rem;
+  }
+  
+  @media all and (max-width: 500px) {
+    body{
+      font-size: 1.5rem;
+    }
+    text-area{
+      font-size: 1.5rem;
+    }
+    
+    button {
+       font-size: 1rem;
+      padding: 0 0.7rem;
+  
+    }
+    .p-password {
+      font-size: 1rem;
+    }
+    
+  }
+  
+  
