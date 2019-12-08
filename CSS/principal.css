@@ -101,13 +101,13 @@ article{
       margin-top: 100px;
       padding-top: 5rem ;
   /*    background-color: rgb(225, 226, 230);*/
-  /*    border: solid 10px;*/
+      border: solid 10px;
    /*   border-color: blue;*/
       border-radius: 60px;
    /*   padding: 1rem 0;*/
       margin-left: 2rem;
       margin-right: 2rem;
-      color: green;
+      color: green;*/
      /* background-color: black;*/
       margin-bottom: 15px;
   
@@ -194,6 +194,10 @@ article{
     transition: opacity 500ms;
   }
   
+
+  @media (min-width: 992px) {
+    /* acá van las reglas CSS que aplican para este media query */
+  }
 /*
   @media (min-width: 480px) and (max-width: 767px){
     .tit-descripcion
